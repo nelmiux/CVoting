@@ -1,85 +1,71 @@
-==14770== Memcheck, a memory error detector
-==14770== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
-==14770== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
-==14770== Command: ./TestVoting
-==14770== 
+==18719== Memcheck, a memory error detector
+==18719== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==18719== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==18719== Command: ./TestVoting
+==18719== 
 Running main() from gtest_main.cc
-[==========] Running 25 tests from 1 test case.
+[==========] Running 18 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 25 tests from VotingFixture
+[----------] 18 tests from VotingFixture
 [ RUN      ] VotingFixture.read_1
-[       OK ] VotingFixture.read_1 (42 ms)
+[       OK ] VotingFixture.read_1 (161 ms)
 [ RUN      ] VotingFixture.read_2
-[       OK ] VotingFixture.read_2 (2 ms)
+[       OK ] VotingFixture.read_2 (22 ms)
 [ RUN      ] VotingFixture.read_3
-[       OK ] VotingFixture.read_3 (2 ms)
+[       OK ] VotingFixture.read_3 (16 ms)
 [ RUN      ] VotingFixture.read_4
-[       OK ] VotingFixture.read_4 (2 ms)
+[       OK ] VotingFixture.read_4 (16 ms)
 [ RUN      ] VotingFixture.read_5
-[       OK ] VotingFixture.read_5 (2 ms)
+[       OK ] VotingFixture.read_5 (21 ms)
 [ RUN      ] VotingFixture.read_6
-[       OK ] VotingFixture.read_6 (2 ms)
+[       OK ] VotingFixture.read_6 (11 ms)
 [ RUN      ] VotingFixture.read_7
-[       OK ] VotingFixture.read_7 (2 ms)
+[       OK ] VotingFixture.read_7 (8 ms)
 [ RUN      ] VotingFixture.eval_1
-[       OK ] VotingFixture.eval_1 (2 ms)
+[       OK ] VotingFixture.eval_1 (48 ms)
 [ RUN      ] VotingFixture.eval_2
-[       OK ] VotingFixture.eval_2 (3 ms)
+[       OK ] VotingFixture.eval_2 (10 ms)
 [ RUN      ] VotingFixture.eval_3
-[       OK ] VotingFixture.eval_3 (3 ms)
+[       OK ] VotingFixture.eval_3 (10 ms)
 [ RUN      ] VotingFixture.eval_4
-[       OK ] VotingFixture.eval_4 (2 ms)
-[ RUN      ] VotingFixture.eval_5
-[       OK ] VotingFixture.eval_5 (2 ms)
-[ RUN      ] VotingFixture.eval_6
-[       OK ] VotingFixture.eval_6 (1 ms)
-[ RUN      ] VotingFixture.eval_7
-[       OK ] VotingFixture.eval_7 (2 ms)
-[ RUN      ] VotingFixture.eval_8
-[       OK ] VotingFixture.eval_8 (2 ms)
-[ RUN      ] VotingFixture.eval_9
-[       OK ] VotingFixture.eval_9 (2 ms)
+[       OK ] VotingFixture.eval_4 (6 ms)
 [ RUN      ] VotingFixture.print_1
-[       OK ] VotingFixture.print_1 (1 ms)
+[       OK ] VotingFixture.print_1 (11 ms)
 [ RUN      ] VotingFixture.print_2
-[       OK ] VotingFixture.print_2 (2 ms)
+[       OK ] VotingFixture.print_2 (3 ms)
 [ RUN      ] VotingFixture.print_3
-[       OK ] VotingFixture.print_3 (2 ms)
+[       OK ] VotingFixture.print_3 (5 ms)
 [ RUN      ] VotingFixture.print_4
-[       OK ] VotingFixture.print_4 (2 ms)
+[       OK ] VotingFixture.print_4 (16 ms)
 [ RUN      ] VotingFixture.print_5
-[       OK ] VotingFixture.print_5 (1 ms)
-[ RUN      ] VotingFixture.print_6
-[       OK ] VotingFixture.print_6 (1 ms)
-[ RUN      ] VotingFixture.print_7
-[       OK ] VotingFixture.print_7 (2 ms)
+[       OK ] VotingFixture.print_5 (7 ms)
 [ RUN      ] VotingFixture.solve_1
-[       OK ] VotingFixture.solve_1 (2 ms)
+[       OK ] VotingFixture.solve_1 (13 ms)
 [ RUN      ] VotingFixture.solve_2
-[       OK ] VotingFixture.solve_2 (2 ms)
-[----------] 25 tests from VotingFixture (186 ms total)
+[       OK ] VotingFixture.solve_2 (9 ms)
+[----------] 18 tests from VotingFixture (435 ms total)
 
 [----------] Global test environment tear-down
-[==========] 25 tests from 1 test case ran. (297 ms total)
-[  PASSED  ] 25 tests.
-==14770== 
-==14770== HEAP SUMMARY:
-==14770==     in use at exit: 0 bytes in 0 blocks
-==14770==   total heap usage: 1,085 allocs, 1,085 frees, 106,029 bytes allocated
-==14770== 
-==14770== All heap blocks were freed -- no leaks are possible
-==14770== 
-==14770== For counts of detected and suppressed errors, rerun with: -v
-==14770== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+[==========] 18 tests from 1 test case ran. (511 ms total)
+[  PASSED  ] 18 tests.
+==18719== 
+==18719== HEAP SUMMARY:
+==18719==     in use at exit: 0 bytes in 0 blocks
+==18719==   total heap usage: 1,565 allocs, 1,565 frees, 115,111 bytes allocated
+==18719== 
+==18719== All heap blocks were freed -- no leaks are possible
+==18719== 
+==18719== For counts of detected and suppressed errors, rerun with: -v
+==18719== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 File 'Voting.c++'
-Lines executed:1.06% of 94
-Branches executed:2.53% of 158
-Taken at least once:1.27% of 158
-Calls executed:0.74% of 136
+Lines executed:100.00% of 94
+Branches executed:98.73% of 158
+Taken at least once:67.09% of 158
+Calls executed:84.56% of 136
 Creating 'Voting.c++.gcov'
 File 'TestVoting.c++'
-Lines executed:100.00% of 50
-Branches executed:100.00% of 54
-Taken at least once:50.00% of 54
-Calls executed:88.94% of 226
+Lines executed:100.00% of 160
+Branches executed:62.05% of 1054
+Taken at least once:31.02% of 1054
+Calls executed:50.41% of 1107
 Creating 'TestVoting.c++.gcov'
