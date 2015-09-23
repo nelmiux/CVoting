@@ -1,0 +1,121 @@
+commit cdd6f0e5bfbcb8c644dd0e3685119d694dbda858
+Author: nelmiux <npererar@utexas.edu>
+Date:   Wed Sep 23 00:42:03 2015 -0500
+
+    Documentation Added, closes #15
+
+commit ec5c678e7e05988eb2feb6460a92b5121a3d7aea
+Author: nelmiux <npererar@utexas.edu>
+Date:   Wed Sep 23 00:12:00 2015 -0500
+
+    closes #12
+
+commit 6c6bd3c3d374ab5dd21d5698821faecd8f224930
+Author: nelmiux <npererar@utexas.edu>
+Date:   Wed Sep 23 00:07:51 2015 -0500
+
+    closes #16
+
+commit 7025d80f2bf404e743d4ff4421576e9ec303e37e
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 23:55:33 2015 -0500
+
+    closes #13, #14
+
+commit 701296f665c640cdebfb8fa2295f37600d7029c4
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 23:52:58 2015 -0500
+
+    Average of 3 unit tests per function added, closes #9
+
+commit f037a78671a9f72b0129cda55cbe4bade7246086
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 21:57:40 2015 -0500
+
+    Between 1000 and 2000 lines of test created, closes #10
+
+commit b5750a1f735487491655ab8e30a0cf5b337bc562
+Merge: 2b07312 bd06e3c
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 20:51:11 2015 -0500
+
+    Merge branch 'dev-branch' of https://github.com/nelmiux/cs371p-voting into dev-branch
+
+commit 2b07312131d0524941efbb95322559f127510a20
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 20:50:59 2015 -0500
+
+    Makefile fixed to run without test on public repo
+
+commit bd06e3c9fc7d20b0ee0dbd00ffbf66d5f7377fba
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:48:27 2015 -0500
+
+    Update .travis.yml
+
+commit 37d75738387d65e779b5c752a739d4046ed4d5cf
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:45:53 2015 -0500
+
+    Update .travis.yml
+
+commit 6425073cf1a34f7a4c7139db72cf11baf49b830b
+Merge: 0da0de1 bd65c62
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 20:41:59 2015 -0500
+
+    Merge branch 'dev-branch' of https://github.com/nelmiux/cs371p-voting into dev-branch
+
+commit 0da0de1d2913bfa4d41e634124d5d3183b2b74bf
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 20:41:46 2015 -0500
+
+    Unnecessary Files Deleted
+
+commit bd65c6268dff1c1e955f479d0aab7709c4d839bf
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:40:15 2015 -0500
+
+    Update README.md
+
+commit 4f89d35fe425fdb9cb0a17bdcabef4e889deeaeb
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:37:19 2015 -0500
+
+    Delete RunVoting.out~
+
+commit 983a41ff2589b55f294330fd08247a95d7a52810
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:36:42 2015 -0500
+
+    Delete RunVoting.in~
+
+commit fa66cf9dce1da6635401bef8456698c0bcbead7b
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Tue Sep 22 20:36:30 2015 -0500
+
+    Delete Voting.h~
+
+commit 2ebc6b6aa9d22fdf1b7d1d774f48d50d266d0793
+Author: nelmiux <npererar@utexas.edu>
+Date:   Tue Sep 22 20:35:52 2015 -0500
+
+    Files Needed, closes #6
+
+commit 6e56b766257de9a9c1af2e6775f0f7dd66572dda
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Sat Sep 19 04:59:21 2015 -0500
+
+    Update .gitignore
+
+commit 47b0ee9ef488df25b3b2b26c98aec0c1cceef043
+Author: nelmiux <npererar@utexas.edu>
+Date:   Sat Sep 19 04:54:33 2015 -0500
+
+    Initial Solution
+
+commit 97299905637cddc9ab9105c74610029f8c45cbfc
+Author: Nelma Perera <npererar@utexas.edu>
+Date:   Mon Sep 14 19:22:39 2015 -0500
+
+    Initial commit
