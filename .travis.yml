@@ -45,7 +45,7 @@ script:
     - ls -al
     - make html
     - ls -al
-    - make voting.log
+    - make Voting.log
     - ls -al
     - make test
     - ls -al
