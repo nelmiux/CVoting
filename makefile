@@ -1,9 +1,9 @@
 FILES :=                              \
     .travis.yml                       \
-    #voting-tests/np8259-RunVoting.in   \
-    #voting-tests/np8259-RunVoting.out  \
-    #voting-tests/np8259-TestVoting.c++ \
-    #voting-tests/np8259-TestVoting.out \
+    voting-tests/np8259-RunVoting.in   \
+    voting-tests/np8259-RunVoting.out  \
+    voting-tests/np8259-TestVoting.c++ \
+    voting-tests/np8259-TestVoting.out \
     Voting.c++                       \
     Voting.h                         \
     Voting.log                       \
