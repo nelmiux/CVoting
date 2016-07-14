@@ -1,9 +1,5 @@
 FILES :=                              \
     .travis.yml                       \
-    voting-tests/np8259-RunVoting.in   \
-    voting-tests/np8259-RunVoting.out  \
-    voting-tests/np8259-TestVoting.c++ \
-    voting-tests/np8259-TestVoting.out \
     Voting.c++                       \
     Voting.h                         \
     Voting.log                       \
@@ -69,9 +65,6 @@ status:
 	git status
 
 test: RunVoting.out TestVoting.out
-
-voting-tests:
-	git clone https://github.com/cs371p-fall-2015/voting-tests.git
 
 html: Doxyfile Voting.h Voting.c++ RunVoting.c++ TestVoting.c++
 	doxygen Doxyfile
